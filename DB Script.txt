@@ -1,0 +1,8 @@
+CREATE TABLE Product_Dtls
+(
+ Product_Id NUMBER(10),
+ Product_Name VARCHAR2(50),
+ Product_Cost NUMBER(50),
+ Product_Code VARCHAR2(50),
+ PRIMARY KEY (Product_Id)
+);
